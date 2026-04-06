@@ -143,7 +143,7 @@ O projeto possui **26 testes unitários** organizados em **3 classes**:
 <img width="948" height="172" alt="image" src="https://github.com/user-attachments/assets/db879b92-2c7a-4ad7-adda-82aa07360e02" />
 
 
-**Total: 24 testes** cobrindo casos de sucesso e erro.
+**Total: 26 testes** cobrindo casos de sucesso e erro.
 
 ## Exemplos de Uso
 
