@@ -1,10 +1,10 @@
-# Sistema de Aluguel de Carros - Testes Unitários
+Projeto de Aluguel de Carros 
 
-## 📋 Descrição do Projeto
+Descrição do Projeto
 
-Este é um projeto educacional para demonstrar **testes unitários em Python** usando pytest. O projeto implementa um **sistema simples de aluguel de carros** onde é possível cadastrar carros, alugá-los, devolvê-los e calcular o valor do aluguel com descontos automáticos.
+Este é um projeto para uso e aplicação focado em testes unitários em Python usando pytest. O projeto implementa um sistema simples de aluguel de carros onde é possível cadastrar carros, alugá-los, devolvê-los e calcular o valor do aluguel com descontos automáticos.
 
-## 🎯 Regras de Negócio
+Regras de Negócio
 
 ### 1. **Cadastro de Carros**
 - Todo carro tem: placa, modelo e valor da diária
@@ -53,7 +53,7 @@ unitario/
 └── README.md               # Este arquivo
 ```
 
-## 🔧 Instalação
+##  Instalação
 
 ### Pré-requisitos
 - Python 3.8 ou superior
@@ -93,7 +93,7 @@ unitario/
    pip install -r requirements.txt
    ```
 
-## ▶️ Como Executar os Testes
+##  Como Executar os Testes
 
 ### Executar todos os testes
 ```bash
@@ -130,7 +130,7 @@ pytest -x
 pytest -v -s
 ```
 
-## 📊 Cobertura de Testes
+## Cobertura de Testes
 
 O projeto possui **24 testes unitários** organizados em **3 classes**:
 
@@ -142,7 +142,7 @@ O projeto possui **24 testes unitários** organizados em **3 classes**:
 
 **Total: 24 testes** cobrindo casos de sucesso e erro.
 
-## 💡 Exemplos de Uso
+## Exemplos de Uso
 
 ### Exemplo 1: Aluguel Simples (1 dia)
 
@@ -259,7 +259,7 @@ Toyota devolvida!
 Aluguel para 15 dias: R$ 1620.00
 ```
 
-## 🧪 Padrões de Teste Utilizados
+##  Padrões de Teste Utilizados
 
 1. **Arrange-Act-Assert (AAA)**
    - Preparação → Execução → Validação
@@ -276,7 +276,7 @@ Aluguel para 15 dias: R$ 1620.00
 5. **Organização por Classe**
    - Testes agrupados por funcionalidade
 
-## 📝 Tabela de Descontos
+## Tabela de Descontos
 
 | Período | Desconto | Exemplo (R$ 100/dia) |
 |---|---|---|
@@ -284,7 +284,7 @@ Aluguel para 15 dias: R$ 1620.00
 | 7-29 dias | 10% | 7 dias = R$ 630 (10% desc) |
 | 30+ dias | 20% | 30 dias = R$ 2.400 (20% desc) |
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Erro: "pytest não encontrado"
 ```bash
@@ -303,13 +303,3 @@ Verifique que os arquivos estão em `tests/test_rental.py`:
 ```bash
 pytest tests/test_rental.py -v
 ```
-
-## 📚 Referências
-
-- [Documentação do Pytest](https://docs.pytest.org/)
-- [Python Unittest Docs](https://docs.python.org/3/library/unittest.html)
-- [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
-
----
-
-**Desenvolvido para aprendizado de Testes Unitários em Python** 🎓
