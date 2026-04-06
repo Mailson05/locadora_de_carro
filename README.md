@@ -130,7 +130,7 @@ pytest -x
 pytest -v -s
 ```
 
-## Cobertura de Testes
+## Regras de Negocio Testadas
 
 O projeto possui **26 testes unitários** organizados em **3 classes**:
 
